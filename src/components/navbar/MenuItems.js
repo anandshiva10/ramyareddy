@@ -1,0 +1,32 @@
+export const MenuItems= [
+    {
+        title:"HOME",
+        url:"#",
+        cName:"nav-links",
+        tag:"home",
+    },
+    {
+        title:"ABOUT",
+        url:"#about",
+        cName:"nav-links",
+        tag:"about",
+    },
+    {
+        title:"SERVICES",
+        url:"#services",
+        cName:"nav-links",
+        tag:"services",
+    },
+    {
+        title:"GALLERY",
+        url:"#gallery",
+        cName:"nav-links",
+        tag:"gallery",
+    },
+    {
+        title:"CONTACT",
+        url:"#contact",
+        cName:"nav-links",
+        tag:'contact'
+    },
+]

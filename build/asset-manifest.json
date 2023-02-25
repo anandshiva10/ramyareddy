@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ramyarreddy/static/css/main.e1a97c8d.css",
+    "main.js": "/ramyarreddy/static/js/main.13d694aa.js",
+    "static/media/1.jpg": "/ramyarreddy/static/media/1.b40b908571fc5cfd4150.jpg",
+    "static/media/7.jpg": "/ramyarreddy/static/media/7.4b9e756a1aabe148227f.jpg",
+    "static/media/5.jpg": "/ramyarreddy/static/media/5.485a4dfb9f2966c50d07.jpg",
+    "static/media/3.jpg": "/ramyarreddy/static/media/3.667f5a5c4a4636f0dc2e.jpg",
+    "static/media/hero.jpg": "/ramyarreddy/static/media/hero.3a1dfae2f7ccebb54a6d.jpg",
+    "static/media/contact-banner.jpg": "/ramyarreddy/static/media/contact-banner.f8f11236a0ce3bac464c.jpg",
+    "static/media/services-banner.jpg": "/ramyarreddy/static/media/services-banner.c414ae1df2b2d0994e11.jpg",
+    "static/media/services-maternity.jpg": "/ramyarreddy/static/media/services-maternity.3c25e9bb5b5f3de77218.jpg",
+    "static/media/2.jpg": "/ramyarreddy/static/media/2.e3bfce0fd1c2a91dd1a8.jpg",
+    "static/media/gallery-banner.jpg": "/ramyarreddy/static/media/gallery-banner.9d77efd4258c6a3bab34.jpg",
+    "static/media/services-baby.jpg": "/ramyarreddy/static/media/services-baby.fb4b00a205e0097817f0.jpg",
+    "static/media/services-family.jpg": "/ramyarreddy/static/media/services-family.6149d4c2da17c1161da7.jpg",
+    "static/media/6.jpg": "/ramyarreddy/static/media/6.20f1467cb6b704ec267c.jpg",
+    "static/media/logo2.png": "/ramyarreddy/static/media/logo2.1c8b337a06756a2beb8a.png",
+    "static/media/about.jpg": "/ramyarreddy/static/media/about.d90d1ebc8dfbf212512a.jpg",
+    "static/media/4.jpg": "/ramyarreddy/static/media/4.c6231fbca278804772f0.jpg",
+    "index.html": "/ramyarreddy/index.html",
+    "main.e1a97c8d.css.map": "/ramyarreddy/static/css/main.e1a97c8d.css.map",
+    "main.13d694aa.js.map": "/ramyarreddy/static/js/main.13d694aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1a97c8d.css",
+    "static/js/main.13d694aa.js"
+  ]
+}
