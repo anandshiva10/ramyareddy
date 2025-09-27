@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@500&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+
+  /* background-color: white; */
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.section{
+  background-color: white;
+  min-height: 100vh;
+  padding: 4.5rem 6rem;
+}
+
+.section-heading{
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  /* text-align: center; */
+
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+ 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:1000px){
+  .section-heading{
+      height: 15rem;
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:800px){
+  .section {
+
+    padding: 4.5rem 2rem;
+}
+}
+
+@media screen and (max-width:520px){
+  .section-heading{
+      height: 10rem;
+      font-size: 1.5rem;
+  }
+  
+}

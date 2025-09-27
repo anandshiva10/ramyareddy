@@ -1,0 +1,138 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 0 30px;
+    /* border-bottom: 1px solid white; */
+    width: 80%;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    /* gap: 8rem; */
+    transform: translate(-50%);
+   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    z-index: 1000;
+}
+
+.navbar-logo img{
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    /* grid-template-columns: repeat(4,auto); */
+    /* grid-gap: 10px; */
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: border 0.5s linear;
+}
+
+.tab-dark{
+    border: 1px solid white;
+    /* transition: 0.5s ease-in-out; */
+}
+
+.tab{
+    border: 1px solid black;
+    /* transition: 0.5s ease-in-out; */
+}
+
+
+.menu-icons{
+    /* color: black; */
+    display: none;
+}
+
+
+
+.whiteBackground{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.whiteBackground .nav-menu li a{
+    color: black;
+}
+
+
+.darkBackground{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+
+@media screen and (max-width:1200px){
+    .navbar-logo img {
+        height: 60px;
+    }
+
+    .nav-links {
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    .nav-links {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:850px){
+    .NavbarItems{
+        z-index: 99;
+
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top:0;
+        left:-100%;
+        opacity: 0;
+        align-items: stretch;
+        margin: 0;
+        background-color: rgba(0,0,0,0.8);
+        padding: 80px 0 30px 0;
+       transition: 0.3s ease-in-out;
+    }
+    .nav-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.3 ease-in-out;
+    }
+
+    .nav-menu.active.whiteBackground{
+        background-color: white;
+    }
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        padding: 2rem 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+   
+    .menu-icons{
+        display: block;
+    }
+
+}
